@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width,initial-scale=1" />
+  <title>Projects — Parvathy Prakash</title>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;600;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="style2.css">
+</head>
+<body>
+
+  <aside class="sidebar">
+    <div class="brand">
+      <img src="https://img.freepik.com/premium-vector/illustration-designs-inspiration-doodle_150234-95431.jpg" alt="Parvathy avatar" class="avatar">
+      <h1>Parvathy Prakash</h1>
+      <p class="role">Web Developer</p>
+
+    </div>
+
+    <nav class="side-nav" aria-label="Primary">
+      <a href="index.html">Home</a>
+      <a href="about.html">About</a>
+      <a href="projects.html" class="active">Projects</a>
+      <a href="skills.html">Skills</a>
+      <a href="contact.html">Contact</a>
+    </nav>
+  </aside>
+
+  <main class="main">
+    <section class="content-card">
+      <h2>Selected Projects</h2>
+
+      <article class="project-item">
+  <div class="meta">
+    <h3>To-Do List</h3>
+    <p class="muted">Web • Beginner Project</p>
+  </div>
+  <p>A simple to-do list to add, mark as done, and remove tasks. Great for practicing JavaScript basics.</p>
+  <a class="read-link" href="#">Case study →</a>
+</article>
+
+
+        <article class="project-item">
+          <div class="meta">
+            <h3>Java Calculator – UI</h3>
+            <p class="muted">Desktop • Learning</p>
+          </div>
+          <p>Simple, accessible calculator interface designed as a beginner Java project UI.</p>
+          <a class="read-link" href="#">Files →</a>
+        </article>
+
+        <article class="project-item">
+        <div class="meta">
+          <h3>Daily Expenses Tracker</h3>
+         <p class="muted">Mobile • Productivity</p>
+         </div>
+         <p>Manage and track your daily spending, categorize expenses, and keep your budget on track.</p>
+        <a class="read-link" href="#">Files →</a>
+        </article>
+      </div>
+    </section>
+
+    <footer class="site-footer">
+      <p>© <span id="year3"></span> Parvathy Prakash</p>
+    </footer>
+  </main>
+
+  <script> document.getElementById('year3').textContent = new Date().getFullYear(); </script>
+</body>
+</html>

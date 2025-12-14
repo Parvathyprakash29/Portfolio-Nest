@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width,initial-scale=1" />
+  <title>Skills — Parvathy</title>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;600;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="style2.css">
+</head>
+<body>
+
+  <aside class="sidebar">
+    <div class="brand">
+      <h1>Parvathy</h1>
+      <p class="role">Web Developer</p>
+
+    </div>
+
+    <nav class="side-nav" aria-label="Primary">
+      <a href="index.html">Home</a>
+      <a href="about.html">About</a>
+      <a href="projects.html">Projects</a>
+      <a href="skills.html" class="active">Skills</a>
+      <a href="contact.html">Contact</a>
+    </nav>
+  </aside>
+
+  <main class="main">
+    <section class="content-card">
+      <h2>Skills</h2>
+
+      <div class="skill-grid">
+        <div class="skill-pill">
+          <h4>Design</h4>
+          <p>UI/UX, Figma </p>
+        </div>
+
+        <div class="skill-pill">
+          <h4>Web</h4>
+          <p>HTML, CSS, basic JS</p>
+        </div>
+
+        <div class="skill-pill">
+          <h4>Programming</h4>
+          <p>Java basics — algorithms & console apps</p>
+        </div>
+
+        <div class="skill-pill">
+          <h4>Graphics</h4>
+          <p>Illustrator, image editing</p>
+        </div>
+      </div>
+    </section>
+
+    <footer class="site-footer">
+      <p>© <span id="year4"></span> Parvathy Prakash</p>
+    </footer>
+  </main>
+
+  <script> document.getElementById('year4').textContent = new Date().getFullYear(); </script>
+</body>
+</html>

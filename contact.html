@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width,initial-scale=1" />
+  <title>Contact — Parvathy</title>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;600;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="style2.css">
+</head>
+<body>
+
+  <aside class="sidebar">
+    <div class="brand">
+      <img src="https://img.freepik.com/premium-vector/illustration-designs-inspiration-doodle_150234-95431.jpg" alt="Parvathy avatar" class="avatar">
+      <h1>Parvathy Prakash</h1>
+      <p class="role">Web Developer</p>
+
+    </div>
+
+    <nav class="side-nav" aria-label="Primary">
+      <a href="index.html">Home</a>
+      <a href="about.html">About</a>
+      <a href="projects.html">Projects</a>
+      <a href="skills.html">Skills</a>
+      <a href="contact.html" class="active">Contact</a>
+    </nav>
+  </aside>
+
+  <main class="main">
+    <section class="content-card contact-card">
+      <h2>Get in touch</h2>
+
+      <p class="muted">I’m open to small design projects, internships and collaborations.</p>
+
+      <div class="contact-grid">
+        <div class="contact-info">
+          <p><strong>Email</strong><br>
+            <a href="mailto:parvathyprakash296@gmail.com">parvathyprakash296@gmail.com</a></p>
+
+          <p><strong>Phone</strong><br>9497873426</p>
+
+          <p><strong>LinkedIn</strong><br>
+            <a href="https://www.linkedin.com/in/parvathy-prakash-207a5532b" target="_blank" rel="noopener">Parvathy Prakash</a></p>
+        </div>
+
+        <form class="contact-form" action="#" onsubmit="alert('Thanks — form demo only'); return false;">
+          <label>
+            <span>Name</span>
+            <input type="text" name="name" required>
+          </label>
+
+          <label>
+            <span>Email</span>
+            <input type="email" name="email" required>
+          </label>
+
+          <label>
+            <span>Message</span>
+            <textarea name="message" rows="5" required></textarea>
+          </label>
+
+          <button class="btn-primary" type="submit">Send message</button>
+        </form>
+      </div>
+    </section>
+
+    <footer class="site-footer">
+      <p>© <span id="year5"></span> Parvathy</p>
+    </footer>
+  </main>
+
+  <script> document.getElementById('year5').textContent = new Date().getFullYear(); </script>
+</body>
+</html>

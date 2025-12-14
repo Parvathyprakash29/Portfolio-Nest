@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width,initial-scale=1" />
+  <title>About — Parvathy</title>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;600;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="style2.css">
+</head>
+<body>
+
+  <aside class="sidebar">
+    <div class="brand">
+      <img src="https://i.pinimg.com/1200x/f4/36/95/f436950b9c750a3686ba91a043edc70b.jpg" alt="Parvathy avatar" class="avatar">
+      <h1>Parvathy Prakash</h1>
+    <p class="role">Web Developer</p>
+
+    </div>
+
+    <nav class="side-nav" aria-label="Primary">
+      <a href="index.html">Home</a>
+      <a href="about.html" class="active">About</a>
+      <a href="projects.html">Projects</a>
+      <a href="skills.html">Skills</a>
+      <a href="contact.html">Contact</a>
+    </nav>
+  </aside>
+
+  <main class="main">
+    <section class="content-card">
+      <h2>About Me</h2>
+
+      <div class="about-grid">
+        <div class="bio">
+          <p>Hello — I'm <strong>Parvathy Prakash</strong>, a student and aspiring designer passionate about creating calm, intuitive, and visually appealing interfaces. I enjoy exploring new design ideas, building small web projects, and experimenting with soft, pastel-inspired color palettes to bring creativity to life.</p>
+
+         <ul class="about-list">
+          <li><strong>Based in:</strong> India</li>
+        <li><strong>Focus:</strong> Web Development, App Development</li>
+        <li><strong>Tools:</strong> HTML, CSS, JavaScript, Bootstrap</li>
+        </ul>
+
+
+          <a class="btn-primary" href="contact.html">Let's collaborate</a>
+        </div>
+
+        <div class="portrait">
+          <img src="image/image.jpeg" alt="Portrait of Parvathy Prakash">
+      </div>
+    </section>
+
+    <footer class="site-footer">
+      <p>© <span id="year2"></span> Parvathy Prakash</p>
+    </footer>
+  </main>
+
+  <script> document.getElementById('year2').textContent = new Date().getFullYear(); </script>
+</body>
+</html>
